@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+img {
+	user-select: auto;
+    pointer-events: auto;
+    -webkit-touch-callout: auto;
+    -moz-user-select: auto;
+    -webkit-user-select: auto;
+    -o-user-select: auto;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+header .head{
+	width: 100%;
+}
+header .head img{
+	width: 100%;
+}
+header .qb,header .lb,#qb{
+	position: relative;
+	top: -5px;
+}
+header .qb{
+	background-color: red;
+	padding-left: 5%;
+}
+header .qb img{
+	width: 15%;
+}
+#qb{
+	display: none;
+	margin-bottom: 20px;
+}
+#qb div{
+	border-bottom: 1px solid gray;
+	padding-left: 5%;
+}
+
+#qb div a{
+	font-size: 24px;
+	margin: 10px;
+}
+header .lb{
+	width: 100%;
+}
+header .lb img{
+	width: 100%;
+	height: 200px;
+}
+article{
+	width: 90%;
+	margin-top: 10px;
+	margin: 0 0 0 5%;
+}
+article .yw .yw_head,article .sc .sc_head,article .gy .gy_head{
+	display: flex;
+	border-bottom: 3px solid deepskyblue;
+}
+article .yw_head img,article .sc .sc_head img ,article .gy .gy_head img{
+	flex: 1;
+	height: 50px;
+}
+article .yw_head div, article .sc .sc_head div,article .gy .gy_head div{
+	height: 50px;
+	flex: 1;
+	text-align: center;
+	font-size: 32px;
+	line-height: 50px;
+}
+article .yw .yw_text div,article .gy .gy_text div{
+	paddingb: 10px;
+	border-bottom: 1px solid gray;
+}
+article .yw .yw_text div a,article .gy .gy_text div a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin: 10px 0;
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+article .sc .sc_text{
+	text-indent:2em;
+	font-size: 16px;
+}
+article .ry .ry_head{
+	text-align: center;
+	font-size: 32px;
+}
+.yw,.gy,.sc,.ry{
+	margin: 10px 0;
+}
+.ry img{
+	width: 100%;
+}
+footer .gzgzh{
+	text-align: center;
+	margin: 10px 0;
+}
+footer .gzgzh a{
+	text-align: center;
+	padding: 10px 20px;
+	background-color: greenyellow;
+	font-size: 42px;
+	border-radius: 10px;
+}
+footer div{
+	width: 100%;
+}
+footer div img{
+	width: 100%;
+}
+footer .ft{
+	background-color: gray;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top: -4px;
+}
+footer .ft .lx{
+	text-align: end;
+	padding-right: 2px;
+}
+footer .ft .dz{
+	padding-left: 2px;
+}

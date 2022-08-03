@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+header{
+	margin: 0 auto;
+	padding: 0 0 50rem 0;
+	display: flex;
+	background-image: url(../img/index/11ea7103515d91ba2079043c901f61a.jpg);
+	background-size: 100% 100%;
+}
+header .center{
+	margin: 0 auto;
+}
+header .center1 img{
+	width: 62.5rem;
+	height: 12.5rem;
+}
+header .lb{
+	margin: 0.625rem 0 0 0;
+}
+header .lb img{
+	width: 62.5rem;
+	height: 37.5rem;
+}
+article{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto;
+	height: 80rem;
+	background-image: url(../img/index/12.jpg);
+	background-size: 100% 100%;
+}
+article .up{
+	display: flex;
+}
+article .left{
+	width: 12.2rem;
+	padding: 12.5rem 0 0 6.25rem;
+}
+article .left div{
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 5rem;
+	height: 5rem;
+}
+article .left #t1{
+	font-size: 2rem;
+}
+#t1,#t2,#t3,#t4{
+	cursor: pointer;
+}
+article .right{
+	margin: 0 0 0 12.5rem;
+	padding: 12.5rem 0 0 0;
+	width: 800px;
+}
+article .right h1{
+	text-align: center;
+}
+article #m3,#m4{
+	display: none;
+}
+article #m3 #yw_text{
+	height: 2.5rem;
+	line-height: 2.5rem;
+}
+article #m3 a{
+	font-size: 1.25rem;
+}
+article #m3 a:hover{
+	font-size: 1.5rem;
+}
+article #m4 img{
+	width: 100%;
+	height: 100%;
+}
+article .ft{
+	width: 85%;
+	padding: 1.25rem 6.25rem 8rem 6.25rem;
+	height: 6.25rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+article .ft>ul{
+	width: 200%;
+	height: 6.25rem;
+	list-style: none;
+	animation-name: move;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+article .ft:hover>ul{
+	cursor: pointer;
+	animation-play-state: paused;
+}
+article .ft>ul>li{
+	width: 20rem;
+	float: left;
+}
+article .ft>ul>li img{
+	width: 100%;
+}
+@keyframes move{
+	from{
+		transform: translateX(0);
+	}
+	to{
+		transform: translateX(-1350px);
+	}
+}
+footer{
+	width: 100%;
+	display: flex;
+}
+footer span{
+	font-size: 2rem;
+	line-height: 12.5rem;
+	margin: 0 auto;
+}
+footer img{
+	width: 12.5rem;
+	height: 12.5rem;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>乌兰察布市国爱志愿者协会</title>
+		<link rel="stylesheet" href="css/sj.css"/>
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+	</head>
+	<body>
+		<header>
+			<div class="head">
+				<img src="https://pic.imgdb.cn/item/6218720a2ab3f51d91503310.jpg">
+			</div>
+			<div class="qb" onclick="changeQb()"><img src="https://img0.baidu.com/it/u=372411195,3890416221&fm=253&fmt=auto&app=138&f=PNG?w=200&h=200"></div>
+			<div id="qb">
+				<div><a target="_blank" href="https://mp.weixin.qq.com/s/B7eSR7S1QZWF-OnoVwMjpQ">协会简介</a></div>
+				<div><a target="_blank" href="https://mp.weixin.qq.com/s/43nS3xIxski_Bi683-YhlQ">协会章程</a></div>
+				<div><a target="_blank" href="https://mp.weixin.qq.com/s/9sRojhl225pGpe7JesuNCg">志愿者风采</a></div>
+				<div><a target="_blank" href="https://mp.weixin.qq.com/s/anw8rLGiMvE0GtnHM2zoyA">超级志愿者</a></div>
+			</div>
+			<script>
+				function changeQb(){
+					if(document.getElementById("qb").style.display=="none"){
+						document.getElementById("qb").style.display = "block";
+					}
+					else{
+						document.getElementById("qb").style.display = "none";
+					}
+				}
+			</script>
+			<div class="lb">
+				<div class="lb">
+					<img id="lb" src="https://pic.imgdb.cn/item/621aef782ab3f51d91048af3.jpg" />
+				</div>
+				<script>
+					var src=[
+						"https://pic.imgdb.cn/item/621aef782ab3f51d91048af3.jpg",
+						"https://pic.imgdb.cn/item/621aef702ab3f51d910475aa.jpg)",
+						"https://pic.imgdb.cn/item/6216461c2ab3f51d91558eb6.jpg"
+					]
+					var cur=1;
+					setInterval("lb()",3000);
+					function lb(){
+						cur++;
+						if(cur==src.length){
+							cur=0;
+						}
+						document.getElementById("lb").src=src[cur];
+					}
+				</script>
+			</div>
+		</header>
+		<article>
+			<div class="yw">
+				<div class="yw_head"><img src="https://pic.imgdb.cn/item/6218720a2ab3f51d91503310.jpg"><div>国爱要闻</div></div>
+					<div id="yw_text" class="yw_text">
+				</div>
+				<script type="text/javascript" src="js/tg.js"></script>
+				<script>
+					setyw();
+				</script>
+			</div>
+			
+			<div class="gy">
+				<div class="gy_head"><img src="https://pic.imgdb.cn/item/6218720a2ab3f51d91503310.jpg"><div>公益项目</div></div>
+				<div class="gy_text">
+					<div><a target="_blank" href="https://mp.weixin.qq.com/s/KAZLVkCfVFOKcWVMHW694g">爱在夕阳红</a></div>
+					<div><a target="_blank" href="https://mp.weixin.qq.com/s/YvSF0kxMNofAMhwF-1TTgw">筑梦行动</a></div>
+					<div><a target="_blank" href="https://mp.weixin.qq.com/s/qcmxVupEgbbayd7WchzlAg">绿色文明</a></div>
+				</div>
+			</div>
+			
+			<div class="sc">
+				<div class="sc_head"><img src="https://pic.imgdb.cn/item/6218720a2ab3f51d91503310.jpg"><div>志愿者誓词</div></div>
+				<div class="sc_text">我志愿服务国爱志愿者协会，我承诺：尽己所能，不计报酬，帮助他人，服务社会。弘扬国爱精神，践行国爱志愿服务理念，积极进取，奋力拼搏为祖国争光，为国爱添彩，让国爱志愿者的微笑成为国爱最好的名片。</div>
+			</div>
+			<div class="ry">
+				<div class="ry_head">荣誉墙</div>
+				<div>
+					<img src="https://pic.imgdb.cn/item/62166e402ab3f51d91c319c1.jpg">
+				</div>
+			</div>
+		</article>
+		
+		<footer>
+			<div class="gzgzh"><a target="_blank" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzg5OTU2NzI1MQ==#wechat_redirect">点击关注公众号</a></div>
+			<div><img src="https://pic.imgdb.cn/item/6216461c2ab3f51d91558ed1.jpg"></div>
+			<div class="ft">
+				<div class="dz">协会地址：<br>集宁区皮件街12号。旧皮草城对面，福安苑大门对面，金海岸洗浴巷子第一个大门上三楼</div>
+				<div class="lx">联系电话：<br>15560667666 <br>14814669999</div>
+			</div>
+		</footer>
+	</body>
+</html>
